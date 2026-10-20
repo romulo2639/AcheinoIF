@@ -1,0 +1,75 @@
+ .gitignore                                         |    1 [32m+[m
+ frontend                                           |    1 [31m-[m
+ frontend/.gitattributes                            |    1 [32m+[m
+ frontend/.gitignore                                |   44 [32m+[m
+ frontend/AGENTS.md                                 |    3 [32m+[m
+ frontend/App.js                                    |  159 [32m+[m
+ frontend/CLAUDE.md                                 |    1 [32m+[m
+ frontend/README.md                                 |    5 [32m+[m
+ frontend/android/.gitignore                        |   16 [32m+[m
+ frontend/android/app/build.gradle                  |  182 [32m+[m
+ frontend/android/app/debug.keystore                |  Bin [31m0[m -> [32m2257[m bytes
+ frontend/android/app/proguard-rules.pro            |   14 [32m+[m
+ frontend/android/app/src/debug/AndroidManifest.xml |    7 [32m+[m
+ .../app/src/debugOptimized/AndroidManifest.xml     |    7 [32m+[m
+ frontend/android/app/src/main/AndroidManifest.xml  |   29 [32m+[m
+ .../app/src/main/java/com/achouif/MainActivity.kt  |   61 [32m+[m
+ .../src/main/java/com/achouif/MainApplication.kt   |   56 [32m+[m
+ .../main/res/drawable-hdpi/splashscreen_logo.png   |  Bin [31m0[m -> [32m20754[m bytes
+ .../main/res/drawable-mdpi/splashscreen_logo.png   |  Bin [31m0[m -> [32m12863[m bytes
+ .../main/res/drawable-xhdpi/splashscreen_logo.png  |  Bin [31m0[m -> [32m29081[m bytes
+ .../main/res/drawable-xxhdpi/splashscreen_logo.png |  Bin [31m0[m -> [32m47123[m bytes
+ .../res/drawable-xxxhdpi/splashscreen_logo.png     |  Bin [31m0[m -> [32m66529[m bytes
+ .../main/res/drawable/ic_launcher_background.xml   |    6 [32m+[m
+ .../main/res/drawable/rn_edit_text_material.xml    |   37 [32m+[m
+ .../app/src/main/res/mipmap-hdpi/ic_launcher.webp  |  Bin [31m0[m -> [32m3056[m bytes
+ .../main/res/mipmap-hdpi/ic_launcher_round.webp    |  Bin [31m0[m -> [32m5024[m bytes
+ .../app/src/main/res/mipmap-mdpi/ic_launcher.webp  |  Bin [31m0[m -> [32m2096[m bytes
+ .../main/res/mipmap-mdpi/ic_launcher_round.webp    |  Bin [31m0[m -> [32m2858[m bytes
+ .../app/src/main/res/mipmap-xhdpi/ic_launcher.webp |  Bin [31m0[m -> [32m4569[m bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.webp   |  Bin [31m0[m -> [32m7098[m bytes
+ .../src/main/res/mipmap-xxhdpi/ic_launcher.webp    |  Bin [31m0[m -> [32m6464[m bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.webp  |  Bin [31m0[m -> [32m10676[m bytes
+ .../src/main/res/mipmap-xxxhdpi/ic_launcher.webp   |  Bin [31m0[m -> [32m9250[m bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.webp |  Bin [31m0[m -> [32m15523[m bytes
+ .../android/app/src/main/res/values/colors.xml     |    4 [32m+[m
+ .../android/app/src/main/res/values/strings.xml    |    3 [32m+[m
+ .../android/app/src/main/res/values/styles.xml     |    8 [32m+[m
+ frontend/android/build.gradle                      |   24 [32m+[m
+ frontend/android/gradle.properties                 |   61 [32m+[m
+ frontend/android/gradle/wrapper/gradle-wrapper.jar |  Bin [31m0[m -> [32m43764[m bytes
+ .../gradle/wrapper/gradle-wrapper.properties       |    7 [32m+[m
+ frontend/android/gradlew                           |  251 [32m+[m
+ frontend/android/gradlew.bat                       |   94 [32m+[m
+ frontend/android/settings.gradle                   |   39 [32m+[m
+ frontend/app.json                                  |   10 [32m+[m
+ frontend/babel.config.js                           |    6 [32m+[m
+ frontend/bancoPP3.sql                              |  102 [32m+[m
+ frontend/index.js                                  |    8 [32m+[m
+ frontend/ios/.gitignore                            |   30 [32m+[m
+ frontend/ios/.xcode.env                            |   11 [32m+[m
+ frontend/ios/AchouIF.xcodeproj/project.pbxproj     |  432 [32m+[m
+ .../xcshareddata/xcschemes/AchouIF.xcscheme        |   88 [32m+[m
+ frontend/ios/AchouIF/AchouIF-Bridging-Header.h     |    3 [32m+[m
+ frontend/ios/AchouIF/AppDelegate.swift             |   70 [32m+[m
+ .../AppIcon.appiconset/Contents.json               |   13 [32m+[m
+ frontend/ios/AchouIF/Images.xcassets/Contents.json |    6 [32m+[m
+ .../SplashScreenLegacy.imageset/Contents.json      |   21 [32m+[m
+ .../SplashScreenLegacy.png                         |  Bin [31m0[m -> [32m79333[m bytes
+ frontend/ios/AchouIF/Info.plist                    |   53 [32m+[m
+ frontend/ios/AchouIF/SplashScreen.storyboard       |   47 [32m+[m
+ frontend/ios/AchouIF/Supporting/Expo.plist         |    6 [32m+[m
+ frontend/ios/Podfile                               |   63 [32m+[m
+ frontend/ios/Podfile.properties.json               |    4 [32m+[m
+ frontend/metro.config.js                           |    7 [32m+[m
+ frontend/package-lock.json                         | 8270 [32m++++++++++++++++++++[m
+ frontend/package.json                              |   31 [32m+[m
+ frontend/src/config/api.js                         |   35 [32m+[m
+ frontend/src/config/firebase.js                    |   38 [32m+[m
+ frontend/src/screens/CadastroScreen.js             |  251 [32m+[m
+ frontend/src/screens/CriarObjetoScreen.js          |  486 [32m++[m
+ frontend/src/screens/EsqueciSenhaScreen.js         |  168 [32m+[m
+ frontend/src/screens/HomeFuncionarioScreen.js      |  437 [32m++[m
+ frontend/src/screens/HomeScreen.js                 |  850 [32m++[m
+ frontend/src/screens/LoginScreen.js                |  574 [32m++[m
+ 74 files changed, 13240 insertions(+), 1 deletion(-)
